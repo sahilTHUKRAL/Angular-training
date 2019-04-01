@@ -9,16 +9,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { MainComponent } from './main/main.component';
-import { SearchBarComponent } from './search-bar/search-bar.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent,
-    SearchBarComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,10 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     MatToolbarModule,
     MatMenuModule,
     MatButtonModule,
-    MatRadioModule
+    MatRadioModule,
+    MatGridListModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,3 @@
- .title{ 
-    background-color: #1a2a44;
-  }
-  .headerText{
-    color: aliceblue
-  }
+.menu-items{
+  display: inline-block;
+}

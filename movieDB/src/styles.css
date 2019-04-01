@@ -2,3 +2,22 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.appBar{
+  background-color: #110835;
+  width: 100%
+}
+.header{
+  top: 0;
+}
+.appBarText{
+  color: white
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+
+}
+.footerText{
+  align-content:center
+}

@@ -1,0 +1,19 @@
+{
+            "vote_count": 1,
+            "id": 592270,
+            "video": false,
+            "vote_average": 10,
+            "title": "The Last Love Story Before Extinction",
+            "popularity": 0,
+            "poster_path": "/zmvBLgnxakFbokwMTvGXzBb3RGH.jpg",
+            "original_language": "en",
+            "original_title": "The Last Love Story Before Extinction",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "backdrop_path": "/csdc4oZZjBvATDSXbntnfAQhGEO.jpg",
+            "adult": false,
+            "overview": "when a rumbling shakes the jungle and the planet itself, the primitive nature of love between neon dinosaurs is pushed to extremes",
+            "release_date": "2019-03-31"
+}
